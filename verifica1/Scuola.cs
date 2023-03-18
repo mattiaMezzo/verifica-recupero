@@ -8,8 +8,7 @@ namespace verifica1
 {
     internal class Scuola
     {
-        internal class Scuola
-        {
+        
             string nome;
             string indirizzo;
             string apertura;
@@ -25,5 +24,11 @@ namespace verifica1
                 this.apertura = apertura;
                 this.chiusura = chiusura;
             }
+
+        public void aggiungiAlunno(string nome, string cognome, int eta)
+        {
+            alunni.Add(nome, cognome, eta);
         }
+    }
+    
 }
