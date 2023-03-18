@@ -17,5 +17,21 @@ namespace verifica1
             this.cognome = cognome;
             this.eta = eta;
         }
-    }
+
+        public string toString()
+        {
+            return nome + cognome + eta.ToString();
+        }
+
+        public string annata()
+        {
+            if (eta <= 16)
+            {
+                return "biennio";
+            }
+            else
+            {
+                return "triennio";
+            }
+        }
 }
