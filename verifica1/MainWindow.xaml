@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="aggiungi alunno" HorizontalAlignment="Left" Margin="76,109,0,0" VerticalAlignment="Top" Height="37" Width="111" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="224,109,0,0" TextWrapping="Wrap" Text="nome" VerticalAlignment="Top" Width="106" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="224,165,0,0" TextWrapping="Wrap" Text="cognome" VerticalAlignment="Top" Width="106"/>
+        <TextBox HorizontalAlignment="Left" Height="36" Margin="224,217,0,0" TextWrapping="Wrap" Text="eta" VerticalAlignment="Top" Width="106"/>
+        <Button Content="scuola" HorizontalAlignment="Left" Margin="415,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="47" Width="95" Click="Button_Click_1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.005"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="561,109,0,0" TextWrapping="Wrap" Text="nome" VerticalAlignment="Top" Width="103"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="574,146,0,0" TextWrapping="Wrap" Text="indirizzo" VerticalAlignment="Top" Width="90" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="36" Margin="574,217,0,0" TextWrapping="Wrap" Text="orari" VerticalAlignment="Top" Width="90"/>
 
     </Grid>
 </Window>
