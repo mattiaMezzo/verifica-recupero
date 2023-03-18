@@ -21,7 +21,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <TextBox HorizontalAlignment="Left" Height="18" Margin="561,109,0,0" TextWrapping="Wrap" Text="nome" VerticalAlignment="Top" Width="103"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="561,61,0,0" TextWrapping="Wrap" Text="nome" VerticalAlignment="Top" Width="103"/>
         <TextBox HorizontalAlignment="Left" Height="35" Margin="574,146,0,0" TextWrapping="Wrap" Text="indirizzo" VerticalAlignment="Top" Width="90" TextChanged="TextBox_TextChanged"/>
         <TextBox HorizontalAlignment="Left" Height="36" Margin="574,217,0,0" TextWrapping="Wrap" Text="orari" VerticalAlignment="Top" Width="90"/>
 
