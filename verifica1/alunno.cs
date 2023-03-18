@@ -8,5 +8,14 @@ namespace verifica1
 {
     internal class alunno
     {
+        string nome;
+        string cognome;
+        int eta;
+        alunno(string nome, string cognome, int eta)
+        {
+            this.nome = nome;
+            this.cognome = cognome;
+            this.eta = eta;
+        }
     }
 }
